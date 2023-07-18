@@ -2,7 +2,7 @@
 format: mnbinstitute-revealjs
 bibliography: references.bib
 cache: true
-logo: "logo.png"
+logo: "https://marcellgranat.github.io/cb-textmining-intro/logo.png"
 nocite: |
   @hvitfeldt2021supervised
 ---
