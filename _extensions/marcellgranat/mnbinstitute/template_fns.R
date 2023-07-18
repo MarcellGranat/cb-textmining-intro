@@ -1,6 +1,16 @@
 library(tidyverse)
 library(extrafont)
 
+# copy logos
+
+list.files(pattern = "wide_mnb.png", recursive = T, full.names = TRUE) |> 
+  first() |> 
+  file.copy("wide_mnb.png", overwrite = FALSE)
+
+list.files(pattern = "logo.png", recursive = T, full.names = TRUE) |> 
+  first() |> 
+  file.copy(to = "logo.png", overwrite = FALSE)
+
 # tables (gt) -------------------------------------------------------------
 
 library(gt)

@@ -40,15 +40,7 @@ img.save('qrcode.png')
 
 <p>[Marcell Granát]{style="font-weight: bold;"} \| [Education & Research Expert at]{style="color: grey;"}</p>
 
-```{r}
-#| echo: false
-#| results: asis
-list.files(pattern = "wide_mnb", recursive = TRUE) |> 
-  paste0(
-    '![](', `...` = _, '){width="300"}'
-  ) |> 
-  cat()
-```
+![](wide_mnb.png){width="300"}
 
 [2023]{style="color: grey;"}
 
