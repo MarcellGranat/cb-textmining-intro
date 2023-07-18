@@ -2,6 +2,7 @@
 format: mnbinstitute-revealjs
 bibliography: references.bib
 cache: true
+logo: "logo.png"
 nocite: |
   @hvitfeldt2021supervised
 ---
