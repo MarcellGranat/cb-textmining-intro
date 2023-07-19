@@ -303,30 +303,28 @@ Supervised machine learning algorithms can be used to build predictive models th
 
 # 📎 Papers based on TA
 
-## {auto-animate="true"}
+##  {auto-animate="true"}
 
 #### @dybowski_european_2020
 
 ::: nonincremental
 -   Demonstrated a shift in ECB's communication after the **2007-08 crisis.**
 
-    -    Instead of conventional monetary analyses, the stability of the **financial system** became the primary focus (`STM`).
+    -   Instead of conventional monetary analyses, the stability of the **financial system** became the primary focus (`STM`).
 
     -   The change was gradual but significant, with the prevalence of stability-related topics rising from approximately 20% before the crisis to 60-70% by 2017.
 :::
 
-## {auto-animate="true"}
+##  {auto-animate="true"}
 
 #### @dybowski_european_2020
 
 ::: nonincremental
-
 -   Despite the shift towards financial stability in ECB's communication, it is not evident that their statements necessarily reflect in their decisions.
 
     -   Dybowski and Kempa (2020) analyzed not only the time series of topics' prevalence but also constructed a `sentiment index` indicating the positivity or negativity towards financial stability.
 
     -   They integrated this sentiment index into an extended **Taylor rule**, but it did not affect the the interest decision significantly.
-    
 :::
 
 ## 
@@ -334,16 +332,13 @@ Supervised machine learning algorithms can be used to build predictive models th
 #### @pongsakluangaram2017
 
 ::: r-fit-text
+-   The authors analysed the communication of 22 central banks between 2000 and 2015
 
-- The authors analysed the communication of 22 central banks between 2000 and 2015
+-   readability, topics, tones
 
-- readability, topics, tones
+-   Understanding MP communication generally required an advanced reader, but they improved a lot! (See also here: [economania.hu](https://economaniablog.hu/2022/08/26/ertheto-jegybanki-kommunikaciot-mindenkinek/))
 
-- Understanding MP communication generally required an advanced reader, but they improved a lot! (See also here: [economania.hu](https://economaniablog.hu/2022/08/26/ertheto-jegybanki-kommunikaciot-mindenkinek/))
-
-- IT central banks had generally communicated more about inflation topic than economic growth topic
-
-
+-   IT central banks had generally communicated more about inflation topic than economic growth topic
 :::
 
 ## 
@@ -392,64 +387,51 @@ tibble::tribble(
 
 ::: r-fit-text
 ::: nonincremental
+-   The authors analysed the communication of 22 central banks between 2000 and 2015
 
-- The authors analysed the communication of 22 central banks between 2000 and 2015
+-   readability, topics, tones
 
-- readability, topics, tones
+-   Understanding MP communication generally required an advanced reader, but they improved a lot! (See also here: [economania.hu](https://economaniablog.hu/2022/08/26/ertheto-jegybanki-kommunikaciot-mindenkinek/))
 
-- Understanding MP communication generally required an advanced reader, but they improved a lot! (See also here: [economania.hu](https://economaniablog.hu/2022/08/26/ertheto-jegybanki-kommunikaciot-mindenkinek/))
+-   IT central banks had generally communicated more about inflation topic than economic growth topic
 
-- IT central banks had generally communicated more about inflation topic than economic growth topic
-
-- Central bank communication complements well with the policy interest rate in enhancing the effectiveness of monetary transmission mechanism (`VAR`)
-
+-   Central bank communication complements well with the policy interest rate in enhancing the effectiveness of monetary transmission mechanism (`VAR`)
 :::
 :::
 
-
-##
+## 
 
 #### @parle_financial_2022
 
 ::: r-fit-text
-
-@parle_financial_2022 presents two methods of measuring the economic sentiment of the ECB press conferences, called **Hawk–Dove Indices**.
-
+@parle_financial_2022 presents two methods of measuring the economic sentiment of the ECB press conferences, called **Hawk--Dove Indices**.
 :::
 
 . . .
 
 ::: r-fit-text
-
 ::: nonincremental
+-   **Hawkish**: Positive expectations regarding economic conditions or higher inflation pressure, and hence a tendency towards a monetary policy tightening.
 
-- **Hawkish**: Positive expectations regarding economic conditions or higher inflation pressure, and hence a tendency towards a monetary policy tightening.
-
-- **Dovish**: Negative expectations regarding economic conditions or lower inflation pressure, and hence a tendency towards a monetary policy loosening
-
+-   **Dovish**: Negative expectations regarding economic conditions or lower inflation pressure, and hence a tendency towards a monetary policy loosening
 :::
-
 :::
-
 
 . . .
 
 ::: r-fit-text
+1.  `Dictionary based index`, with 4 categories (economic terms and sentiment)
 
-1. `Dictionary based index`, with 4 categories (economic terms and sentiment)
-
-2. `Dynamic Topic Model`
-
+2.  `Dynamic Topic Model`
 :::
 
-##
+## 
 
 #### @parle_financial_2022
 
+-   @parle_financial_2022 applies the Hawk--Dove Indices and intraday financial market indeces to identify the importance of the "information channel" and the the effect on the expectations about the future monetary policy.
 
-- @parle_financial_2022 applies the Hawk–Dove Indices and intraday financial market indeces to identify the importance of the "information channel" and the the effect on the expectations about the future monetary policy.
-
-- **Unintended consequences**: The paper highlights that the market reacts negatively to a dovish statement, which are set for stimulating the economy.
+-   **Unintended consequences**: The paper highlights that the market reacts negatively to a dovish statement, which are set for stimulating the economy.
 
 ## What should you expect?
 
